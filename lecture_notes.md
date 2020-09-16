@@ -139,19 +139,19 @@ However we can convert this integer to a string
 `print(str(var1))`
 
 We can change a variable between different types without classifying the change. Use quotes to change from int to string
-`
+```
 {
 	var1 = 1
 	var1 = "foo"
 }
-`
+```
 
 - This var just changed from an integer to a String
 
 ### Nuances
 When declaring vars you want to create with a default value to represent this data type
 
-`
+```
 {
 	myNum = 100 #Integer
 	myNum = 100.0 #Float
@@ -159,7 +159,7 @@ When declaring vars you want to create with a default value to represent this da
 	myNum = 0 #Integer
 	myNum = 0.0 #Float
 }
-`
+```
 - Decimal will always create a float value
 
 ---
@@ -169,22 +169,22 @@ To get basic information from the user we use the `input()` command/function
 - `input()` is a value returning function so it will be coupled with an assignment statement
 
 Example.
-`
+```
 {
 	name = input("What is your name? --> ")
 }
-`
+```
 
 Be Careful!
 - Everything that is put through the input command is evaluated as a String so we would need to cast this variable to something else once formatted
 
 Example.
-`
+```
 {
 	num = input("Choose a number? --> ")
 	
 }
-`
+```
 
 This is something different in Python3. In Python2 this wasn't and issue and python used to make the decision on the type of variable for you
 
