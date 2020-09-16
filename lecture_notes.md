@@ -4,7 +4,8 @@
 1. [Python]()
 2. [History]()
 3. [7 Steps to Learning New Languages]()
-4. [But what about Main?]()
+4. [Main?]()
+5. [Print]()
 
 
 ## Python
@@ -48,5 +49,54 @@ Python identifies code blocks through common tab structure
 		main()
 
 `
+
+* Now we have a main function
+* However, we need to be aware of the way that python reads and understands code. Python does not read code like other
+interpreters (java). The code is read from top down. Therefore this would happen
+
+`	def main():
+		print("Hello World!")
+
+	print("This is executed first\n")
+
+	if __name__ = "__main__":
+		main()
+
+`
+
+Output:
+This is executed first
+Hello World!
+
+---
+
+## Print
+
+`print("Hello","this","is","test")`
+
+Output:
+Hello this is test
+
+`var1 = 1
+ var2 = 2
+ var3 = 3
+ print(var1, var2, var3)
+`
+
+Output:
+1 2 3
+
+---
+
+## Variables
+- There is no command for creating a variable in Python
+- Creating variables in Python is done through the assignment operator '='
+
+Identifiers can start with an uppercase/lowercase letters
+- cannot start with '_'
+
+All other identifiers start with a lowercase letter
+- Starting an identifier with a single leading underscore means that it is protected
+- Using two leading underscores 
 
 
