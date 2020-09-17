@@ -1,4 +1,4 @@
-# Learning Python CSE220 Notes
+ Learning Python CSE220 Notes
 
 # Table of Contents
 1. [Python]()
@@ -43,7 +43,7 @@ Python identifies code blocks through common tab structure
 
 ## Building Main
 
-`
+```
 {
 	def main():
 		print("Hello World")
@@ -51,13 +51,13 @@ Python identifies code blocks through common tab structure
 	if __name__ = "__main__":
 		main()
 }
-`
+```
 
 * Now we have a main function
 * However, we need to be aware of the way that python reads and understands code. Python does not read code like other
 interpreters (java). The code is read from top down. Therefore this would happen
 
-`
+```
 {
 	def main():
 		print("Hello World!")
@@ -67,7 +67,7 @@ interpreters (java). The code is read from top down. Therefore this would happen
 	if __name__ = "__main__":
 		main()
 }
-`
+```
 
 Output:
 This is executed first
@@ -82,14 +82,14 @@ Hello World!
 Output:
 Hello this is test
 
-`
+```
 {
 	var1 = 1
 	var2 = 2
 	var3 = 3
 	print(var1, var2, var3)
 }
-`
+```
 
 Output:
 1 2 3
