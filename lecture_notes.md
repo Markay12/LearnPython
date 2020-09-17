@@ -1,12 +1,13 @@
  Learning Python CSE220 Notes
 
 # Table of Contents
-1. [Python]()
-2. [History]()
-3. [7 Steps to Learning New Languages]()
-4. [Main?]()
-5. [Print]()
-6. [Easy Commands]()
+1. [Python](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#python)
+2. [History](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#history)
+3. [Python Structure](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#python-structure)
+4. [Main?](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#building-main)
+5. [Print](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#print)
+6. [Easy Commands](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#easy-commands)
+7. [Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#operators)
 
 
 ## Python
