@@ -192,5 +192,28 @@ This is something different in Python3. In Python2 this wasn't and issue and pyt
 ---
 
 ## Operators
+### _Math Operators_
+There are a few differences but mostly the same
+1. + ; addition 
+2. - ; subtraction
+3. * ; Multiplication
+4. / ; Floating Point Division
+5. // ; **Integer Division**
+6. ** ; Exponent
 
+
+### _Bitwise Operators__
+Python allows us to manipulate binary as well and gives standard bitwise operators
+
+Operator     | Description
+------------ | -------------
+& Binary AND | Performs a bit by bit AND if the bits are 1 in the same spot
+| Binary OR | Performs an OR – 1 in either results in a 1 in the result
+^ Binary XOR | XOR if there is a 1 in either, but not both there is a 1 in the result
+~ Binary Ones Complement | Flip all the bits in the variable
+<< Binary Left Shift | The left operands value is moved left by the number of bits specified by the right operand
+>> Binary Right Shift | The left operands value is moved right by the number of bits specified by the right operand
+
+
+### _Logic Operators_
 
