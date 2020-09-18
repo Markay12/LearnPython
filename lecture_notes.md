@@ -8,6 +8,10 @@
 5. [Print](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#print)
 6. [Easy Commands](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#easy-commands)
 7. [Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#operators)
+8. [Truthiness and Falsiness]()
+9. [Conditionals and Loops]()
+10. [Missing Operators]()
+11. [Functions]()
 
 
 ## Python
@@ -212,7 +216,139 @@ Operator     | Description
 ^ Binary XOR | XOR if there is a 1 in either, but not both there is a 1 in the result
 ~ Binary Ones Complement | Flip all the bits in the variable
 << Binary Left Shift | The left operands value is moved left by the number of bits specified by the right operand
->> Binary Right Shift | The left operands value is moved right by the number of bits specified by the right operand.
+>> Binary Right Shift | The left operands value is moved right by the number of bits specified by the right operand
 
 ### _Logic Operators_
+Logic operators are used by the word.
+Rather than using || or && we type the word 'or' and 'and'
+* True and False keywords in python are capitalized
+
+Operator | Description | Example
+-------- | ----------- | ----------
+and      | Logical AND | True and False = False
+or       | Logical OR  | True or False = True
+not      | Logical NOT | not True = False
+is       | Evaluates to True if the two vars point to the same object | obj1 is obj2
+is not   | Evaluates to True if the two variables do NOT point at the same object | obj1 is not obj2
+
+
+
+
+## Truthiness and Falsiness
+
+### False Things
+Many things can be considered false.
+Follow this structure.
+* if it is representative of the idea of ZERO... then it is false
+
+### True Things
+* Easy to lock down
+* if it isn't false, then it is true
+
+* be aware of what things return within our code
+	* this is a problem in C/C++ where the '=' operator will return \*this
+
+
+## Conditionals and Loops
+
+Standard, however some important differences
+* if
+* Else
+* Else If
+* While
+
+However it is missing:
+* Do While
+* For
+
+
+```python
+{
+def main():
+    print("Hello")
+
+
+    grade = int(input("Enter your grade: "))
+
+    if grade >= 90:
+        print("A")
+    elif grade >= 80:
+        print("B")
+    elif grade >= 70:
+        print("C")
+    elif grade >= 60:
+        print("D");
+    else:
+        print("E")
+
+
+if __name__ == '__main__':
+    main()
+}
+```
+
+### While Loops
+
+While loops are exactly the same as other languages
+* while something is true, do the loop body
+	* while continues to follow the colon-tab structure
+
+```python
+{
+
+count = 0
+while count < 10:
+	print(count)
+	count+=1
+
+}
+```
+
+### Break and Continue
+* break and continue are part of the python language as well
+* However, using them sparingly is advised. They can eaily crutch bad programming practices
+
+As Author Matthew Read noted:
+
+> Bad programmers speak in absolutes. Good programmers use the clearest solution possible (all other things being equal).
+> Using break and continue frequently makes code hard to follow. 
+> But if replacing them makes the code even harder to follow, then that's a bad change.
+
+
+## Missing Operators
+In Python there are no:
+* Switch-Case Statements
+	* must use if-elif-else chain
+
+* Post-Test Loop (Do-while)
+	* Rewrite loops as pre-test loops
+	* Do priming read before the loop and go
+
+* For Loop... kind of
+	* For loops are different
+
+These loops don't work like we have seen them before. In languages such as Java we write
+
+```Java
+
+	for (int i=0; i<5; i++){
+
+	}
+
+}
+```
+
+However, in python we write them as:
+
+```python
+{
+
+	for i in range(5):
+		[code]
+
+}
+```
+
+## Functions
+
 
