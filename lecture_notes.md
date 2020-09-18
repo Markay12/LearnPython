@@ -115,7 +115,7 @@ It is a python convention to prefix _ or __ varibales to be private/protected
 - This is the python equivalent to *Protected*, which is semantic and offers one language feature
 
 
-### __ triggers a name mangling mechanism
+### \'__\' triggers a name mangling mechanism
 - pretects a name from being accidently overriden
 
 ---
