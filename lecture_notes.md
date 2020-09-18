@@ -124,15 +124,15 @@ It is a python convention to prefix _ or __ varibales to be private/protected
 ## Data Types
 Python is Dynamically and Strong typed 
 - Often known as duck typing
-- Strong typing means that vars act as their type and not in unexpected ways
-1. Less or no data coercion
-2. Strings don't magically become numbers
-3. Required explicit conversions
+* Strong typing means that vars act as their type and not in unexpected ways
+  * Less or no data coercion
+  * Strings don't magically become numbers
+  * Required explicit conversions
 
-- Dynamic Typing means that vars are not fixed from one type line to line
-1.  Not necissarily contradictory
-2. Strong speaks to how the variable is used, not to how it is changed
-3. We can change from line to line and how we change it will link it to that data type
+* Dynamic Typing means that vars are not fixed from one type line to line
+  *  Not necissarily contradictory
+  * Strong speaks to how the variable is used, not to how it is changed
+  * We can change from line to line and how we change it will link it to that data type
 
 Variables will remain strongly typed
 `var1 = 1` is an integer
