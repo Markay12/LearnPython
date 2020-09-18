@@ -31,10 +31,9 @@ Python identifies code blocks through common tab structure
 * Python is going to force you to be structured
 * Even one space off can mess up your program
 * Be wary of tool usage
-
-1. Use the tab key
-2. Do not mix tabs and space when defining a code block
-3. Python uses 4 space as indentation by default
+	* Use the tab key
+	* Do not mix tabs and space when defining a code block
+	* Python uses 4 space as indentation by default
 
 ### Syntax Structures
 1. One of the really nice things about Python Structure is a more regular syntax
