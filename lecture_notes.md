@@ -43,7 +43,7 @@ Python identifies code blocks through common tab structure
 
 ## Building Main
 
-```
+```python
 {
 	def main():
 		print("Hello World")
@@ -57,7 +57,7 @@ Python identifies code blocks through common tab structure
 * However, we need to be aware of the way that python reads and understands code. Python does not read code like other
 interpreters (java). The code is read from top down. Therefore this would happen
 
-```
+```python
 {
 	def main():
 		print("Hello World!")
@@ -82,7 +82,7 @@ Hello World!
 Output:
 Hello this is test
 
-```
+```python
 {
 	var1 = 1
 	var2 = 2
@@ -116,7 +116,7 @@ It is a python convention to prefix _ or __ varibales to be private/protected
 
 
 ### \'__\' triggers a name mangling mechanism
-- pretects a name from being accidently overriden
+- protects a name from being accidently overriden
 
 ---
 
@@ -139,7 +139,7 @@ However we can convert this integer to a string
 `print(str(var1))`
 
 We can change a variable between different types without classifying the change. Use quotes to change from int to string
-```
+```python
 {
 	var1 = 1
 	var1 = "foo"
@@ -151,7 +151,7 @@ We can change a variable between different types without classifying the change.
 ### Nuances
 When declaring vars you want to create with a default value to represent this data type
 
-```
+```python
 {
 	myNum = 100 #Integer
 	myNum = 100.0 #Float
@@ -169,7 +169,7 @@ To get basic information from the user we use the `input()` command/function
 - `input()` is a value returning function so it will be coupled with an assignment statement
 
 Example.
-```
+```python
 {
 	name = input("What is your name? --> ")
 }
@@ -179,7 +179,7 @@ Be Careful!
 - Everything that is put through the input command is evaluated as a String so we would need to cast this variable to something else once formatted
 
 Example.
-```
+```python
 {
 	num = input("Choose a number? --> ")
 	
