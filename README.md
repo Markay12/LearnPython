@@ -1,5 +1,8 @@
  Learning Python CSE220 Notes
 
+![Python3 Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc3%2FPython-logo-notext.svg%2F1200px-Python-logo-notext.svg.png&f=1&nofb=1)
+
+
 # Table of Contents
 1. [Python](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#python)
 2. [History](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#history)
