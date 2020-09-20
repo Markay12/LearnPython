@@ -216,7 +216,7 @@ Operator     | Description
 ^ Binary XOR | XOR if there is a 1 in either, but not both there is a 1 in the result
 ~ Binary Ones Complement | Flip all the bits in the variable
 << Binary Left Shift | The left operands value is moved left by the number of bits specified by the right operand
->> Binary Right Shift | The left operands value is moved right by the number of bits specified by the right operand
+\>> Binary Right Shift | The left operands value is moved right by the number of bits specified by the right operand
 
 ### _Logic Operators_
 Logic operators are used by the word.
