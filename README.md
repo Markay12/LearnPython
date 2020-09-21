@@ -11,10 +11,11 @@
 5. [Print](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#print)
 6. [Easy Commands](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#easy-commands)
 7. [Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#operators)
-8. [Truthiness and Falsiness]()
-9. [Conditionals and Loops]()
+8. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#truthiness-and-falsiness)
+9. [Conditionals and Loops](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#conditionals-and-loops)
 10. [Missing Operators]()
 11. [Functions]()
+12. [Parameters]()
 
 
 ## Python
@@ -415,3 +416,67 @@ This is important for Python because it can act as many of these. Works with met
 
 What if we call a non-numerical value here?
 * Wrong variable type so we would have an issue here
+
+
+## Parameters and Python
+Python passes parameters in a similar manner to Java.
+Primitive and immutable types are passed by value
+Mutable objects are passed by object reference
+* AKA 'Passed by Pointer'
+* When obj ref is passed that means we can change the object but can't reassign the object reference
+	* Pass in an array
+		* You can change the contents of that array
+		* You cannot have that array store a brand new array
+
+
+Parameters are like every other variable
+* While semantics can be added we can be more explicit with code
+	* Example `def isEven(value:int):`
+
+This is not enforced as syntax
+Passing a float will not raise an error
+
+```Python
+{
+
+	def isEven(value:int):
+		assert isinstance(value, int)
+		print(value)
+		if(value % 2 == 0):
+			return True
+		else:
+			return False
+
+}
+```
+
+## Assert
+The assert command is essentially sanity check
+ * `assert <condition>`
+ * `assert <condition>,<error message>`
+
+Basically a way to force an error in your code if a condition is not met
+* This is an ALL STOP and gives an AssertionError
+
+## Exception Handling - Raising an Exception
+* Instead of using assert, we can Raise an exception
+	* Known as throwing an exception
+* isinstance can still be used
+
+```Python
+{
+
+	def isEven(value:int):
+		if not isinstance(value, int):
+			raise TypeError("value expects integer")
+		
+		print(value)
+		if(value % 2 == 0):
+			return True
+		else:
+			return False
+
+}
+```
+
+
