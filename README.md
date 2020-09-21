@@ -353,5 +353,65 @@ However, in python we write them as:
 ```
 
 ## Functions
+Coding with functions and coding with methods are two different things
+
+Here are the main differences
+
+_Method_
+* Belongs to a class
+	* Important distinction
+* Methods are generally expressed behaviors of a class/object
+	* Semantically tied to the class they are a part of
+* Can only be acces via an object
+	* Unless they are static
+
+_Function_
+* Does NOT belong to a class/object
+* Expresses a useful idea or operation
+* Generally semantically tied to the program as a whole rather than the behaviors of a piece of it
+* Can be called anywhere in the program
+
+This is important for Python because it can act as many of these. Works with methods and functions
+* Java is different in this respect and can only create methods
+	* C++ and Python can create functions
+
+### Functions in Python
+* `__main__` was already our first function
+* Here we can now formalize the syntax
+
+```Python
+{
+
+	def <function name>(<param list>):
+		<body>
+
+}
+```
+
+* Like many languages a function must be defined before you use it
+	* Unline javascript, functions are not hoisted
+	* They are interpreted n place which means if they are not defined by the time the interpreter gets to the call, there will be an error
 
 
+* Names can be any valid identifier
+* The param list is just a series of variable names separated by commas
+	* which means that params are untyped until the function call
+* The func body is tabbed over and un-tab indicates body is done
+	* Further functions within the same will be further tabbed
+* Single values can be returned with a return statement
+	* Can be multiple return statements but we can only have one final return
+
+```Python
+{
+
+	def isEven(value):
+		if (value % 2 == 0):
+			return True
+		else:
+			return False
+
+}
+```
+
+What if we call a non-numerical value here?
+* Wrong variable type so we would have an issue here
