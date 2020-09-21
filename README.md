@@ -4,8 +4,8 @@
 
 
 # Table of Contents
-1. [Python](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#python)
-2. [History](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#history)
+1. [Python](https://github.com/Markay12/LearnPython/blob/master/README.md#python)
+2. [History](https://github.com/Markay12/LearnPython/blob/master/README.md#history)
 3. [Python Structure](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#python-structure)
 4. [Main?](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#building-main)
 5. [Print](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#print)
@@ -17,6 +17,9 @@
 11. [Functions](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#functions)
 12. [Parameters]()
 13. [Assert and Exception Handling]()
+14. [Array Like Structures]()
+
+
 
 ## Python
 Taking over the world, rapidly became the number one most popular language analytically
@@ -450,6 +453,87 @@ Passing a float will not raise an error
 }
 ```
 
+Python does not allow for overloading
+* This means giving the same function multiple definitions based on different parameter lists
+* Different languages have different rules for it, but generally all of them require param list changes
+
+_This allows for the ability for Default Parameters_
+* these params can also be known as Optional Parameters
+
+When a param is defined we use the '=' operator
+
+```Python
+{
+
+	def addNumbers(first, second, third = 0, fourth = 0):
+		return first + second + third + fourth
+	
+	addNumbers(1,2)
+	addNumbers(1,2,3)
+	addNumbers(1,2,3,4)
+
+}
+```
+* This is similar to how the `range` function worked earlier and details how we don't have to always use all parameters
+
+### What are the rules here?
+Python has a lot of ways to get around its own rules
+We can use "Keyword Arguments"
+Parameters are filled from left to right- How can we skip to the fourth? 
+Default params must go from left to right as well
+
+We can change the order of calling parameters if we know the names
+
+```Python
+{
+
+	def printinfo( name, age ):
+		print "Name: ", name
+		print "Age: ", age
+		return
+
+	printinfo( age = 52, name = "Billy")
+
+}
+```
+### Unknown/Arbitrary/Variable-Length Param
+* Sometimes we want to make a function that doesn't know how many params are going to come in?
+* We can accomplish this with an ' * ' as a prefix to a parameter name
+	* The param will now contain a Tuple that contains those values
+* The variable-length param should generally be the last in the parameter list
+	* Except when we are using Default parameters and Keyword use only
+
+```Python
+{
+
+	def addThemAl(*numbers):
+		total = 0
+
+		for value in nums:
+			total += value
+		return total
+
+	print(addThemAll(1,2,3))
+	print(addThemAll(1,2,3,4,5,6,7,8,9))
+
+}
+```
+
+### Revisiting Print()
+print() is actually more versatile than earlier
+* full syntax = `print(*objects, sep= ' ', end='\n', file=sys.stdout, flush=False)`
+
+sep, file and flush can be set via keyword args
+* sep; allows us to change the separator between objects, defaults to ' '
+* end; allows us to change what is outputted at the end of the print, defaults to a newline char "\n"
+* file; allow to change the target of the output
+	* must have write(string) method
+	* can be used for basic File output
+* flush; True or False, specifies if the output is flushed or buffered (False)
+
+
+
+
 ## Assert
 The assert command is essentially sanity check
  * `assert <condition>`
@@ -479,4 +563,7 @@ Basically a way to force an error in your code if a condition is not met
 }
 ```
 
+* Python has a large list of built in exceptions
+* Very built and largely accessible
 
+## Array Like Structures
