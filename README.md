@@ -13,10 +13,10 @@
 7. [Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#operators)
 8. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#truthiness-and-falsiness)
 9. [Conditionals and Loops](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#conditionals-and-loops)
-10. [Missing Operators]()
-11. [Functions]()
+10. [Missing Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#missing-operators)
+11. [Functions](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#functions)
 12. [Parameters]()
-
+13. [Assert and Exception Handling]()
 
 ## Python
 Taking over the world, rapidly became the number one most popular language analytically
