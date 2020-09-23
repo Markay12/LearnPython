@@ -565,4 +565,33 @@ Basically a way to force an error in your code if a condition is not met
 * Very built and largely accessible
 
 ## Array Like Structures
+Python comes with a handful of data structures built into the language
+* Unlike Java and others, these are generally default language feature and require no imports or libraries
+
+__Containers__
+
+### Lists
+Refers to a list collection type.
+Often called an array because it is similar, however... the list is NOT an array as we might be used to
+* It is actually, depending on the interpreter you are using, structurally different
+The python list Variable Length Array is similar to Arraylist in Java
+* But not in the bad C way
+* Allows for an open ended array. No set length value
+
+Java ArrayList is underpinned by an Array, so it isn't a Python list 
+* An array is of fixed size with a chunk of memory that stores multiple variables through the same name
+	* The index of each variable is achieved via pointer arithmetic
+* The ArrayList is a managed array class
+	* Each ArrayList is an object
+
+
+Array | ArrayList/PythonList
+------|----------------------
+Fixed in Size | Managed Array
+Managed by programmer | object will replace underpinning array
+Can't shrinkand grow, can only be replaced | Programmer has no say in size after creation
+Memory is managed by the programmer | Automatically grows
+ | Can waste memory
+
+
 
