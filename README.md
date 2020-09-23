@@ -16,7 +16,8 @@
 12. [Parameters]()
 13. [Assert and Exception Handling]()
 14. [Array Like Structures]()
-
+15. [Lists]()
+16. [Tuples and Strings]()
 
 
 ## Python
@@ -568,7 +569,7 @@ Basically a way to force an error in your code if a condition is not met
 Python comes with a handful of data structures built into the language
 * Unlike Java and others, these are generally default language feature and require no imports or libraries
 
-__Containers__
+**Containers**
 
 ### Lists
 Refers to a list collection type.
@@ -593,5 +594,99 @@ Can't shrinkand grow, can only be replaced | Programmer has no say in size after
 Memory is managed by the programmer | Automatically grows
  | Can waste memory
 
+
+Why is this so important?
+1. Like using ArrayLists in Java there is an inherent give and take to using lists
+2. We're going to give up control and possibly effeciency
+3. Gain a dynamic feeling data structure that guarantees O(1) runtimes
+4. Since we often don’t care about memory efficiency as much in Python – we’re ok with this trade-off
+
+
+### Creating Lists
+To create a list we simply assign a [] to the variable
+This [] can contain init values if we like:
+* `myList = []`
+	* creates an empty list
+* `myList = [1,2,3,4]`
+	* list containing 1, 2, 3, 4
+
+Construct a list with
+```Python
+{
+
+	myList = list(< iterable >)
+
+}
+```
+
+_Lists are Objects_
+* append(x)
+	* adds item to end of list
+* extend(<iterable>)
+	* adds all items from an iterable structure to end of list
+* remove(x)
+	* find and remove x from list
+	* change the size
+* pop( [index] )
+	* remove last item of the list and return
+	* index provided does the same at the index
+* reverse()
+	* reverse the list without return
+* sort()
+	* sorts the data if it can be sorted
+
+With these methods lists can be used as a Stack or a Queue
+* Append and Pop give it a stack like behavior automatically
+* However, you can pop(0) to get a queue like behavior
+
+
+## Tuples and Strings
+Tuples are **immutable** collection.
+Once built, they cannot change
+* They don’t shrink or grow
+* You can’t change the data contained within them
+Tuple syntax is pretty much identical to List syntax.
+The difference is that tuples use () for declaration syntax.
+* myTuple = (1,2,3,4)
+* But uses [] for indexing–print(myTuple[1])
+
+Tuples have a key feature - they are HETEROGENEOUS
+* We can mix data types within them
+* Generally get used to represent "records"
+* Can also be used to return multiple values from a function
+
+Strings are what you expect them to be
+* Strings are a mutable collection of characters that represent text
+* Like Java, they are Objects
+
+### String Operators
+* [index] - Gets a specific character
+* [start:finish] - Gets a substring
+* [start:] - Substring from start to end
+* + - concat operator
+* * - allows us to 'multiply' a string
+
+```Python
+{
+
+	print("Hello"*2)
+
+}
+```
+
+### Common Methods
+* count(value, start, end)
+	* returns number of times a substring appears within string
+	* pattern analysis
+* find (value, start end)
+	* returns the index of a substring found in a string
+* swapcase()
+	* returns a string with all the ltter cases flipped
+* split(sep, maxsplit)
+	* returns a list of substrings delimeted by the separator (space by default)
+* upper()/lower()/title()
+	* changes cases of string
+* strip(char)
+	* removes a set of characters from the string
 
 
