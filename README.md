@@ -6,7 +6,7 @@
 2. [History](https://github.com/Markay12/LearnPython#history)
 3. [Python Structure](https://github.com/Markay12/LearnPython#python-structure)
 4. [Building Main](https://github.com/Markay12/LearnPython#building-main)
-5. [Print]https://github.com/Markay12/LearnPython#print)
+5. [Print](https://github.com/Markay12/LearnPython#print)
 6. [Variables](https://github.com/Markay12/LearnPython#variables)
 7. [Underscore Prefixes](https://github.com/Markay12/LearnPython#underscore-prefixes)
 8. [Easy Commands](https://github.com/Markay12/LearnPython#easy-commands)
@@ -693,3 +693,6 @@ Strings are what you expect them to be
 
 
 ## _Credit & License_
+Notes taken from Justin Selgrad Arizona State University
+Repository written by Mark Ashinhust
+
