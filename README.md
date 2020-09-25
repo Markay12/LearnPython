@@ -2,24 +2,24 @@
 
 
 # Table of Contents
-1. [Python](https://github.com/Markay12/LearnPython/blob/master/README.md#python)
-2. [History](https://github.com/Markay12/LearnPython/blob/master/README.md#history)
-3. [Python Structure](https://github.com/Markay12/LearnPython/blob/master/README.md#python-structure)
-4. [Building Main](https://github.com/Markay12/LearnPython/blob/master/README.md#building-main)
-5. [Print]https://github.com/Markay12/LearnPython/blob/master/README.md#print)
-6. [Variables](https://github.com/Markay12/LearnPython/blob/master/README.md#variables)
-7. [Underscore Prefixes](https://github.com/Markay12/LearnPython/blob/master/README.md#underscore-prefixes)
-8. [Easy Commands](https://github.com/Markay12/LearnPython/blob/master/README.md#easy-commands)
-9. [Operators](https://github.com/Markay12/LearnPython/blob/master/README.md#operators)
-10. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython/blob/master/README.md#truthiness-and-falsiness)
-11. [Conditionals and Loops](https://github.com/Markay12/LearnPython/blob/master/README.md#conditionals-and-loops)
-12. [Missing Operators](https://github.com/Markay12/LearnPython/blob/master/README.md#missing-operators)
-13. [Functions](https://github.com/Markay12/LearnPython/blob/master/README.md#functions)
-14. [Parameters](https://github.com/Markay12/LearnPython/blob/master/README.md#parameters-and-python)
-15. [Assert and Exception Handling](https://github.com/Markay12/LearnPython/blob/master/README.md#assert)
-16. [Array Like Structures](https://github.com/Markay12/LearnPython/blob/master/README.md#array-like-structures)
-17. [Lists](https://github.com/Markay12/LearnPython/blob/master/README.md#lists)
-18. [Tuples and Strings](https://github.com/Markay12/LearnPython/blob/master/README.md#tuples-and-strings)
+1. [Python](https://github.com/Markay12/LearnPython#python)
+2. [History](https://github.com/Markay12/LearnPython#history)
+3. [Python Structure](https://github.com/Markay12/LearnPython#python-structure)
+4. [Building Main](https://github.com/Markay12/LearnPython#building-main)
+5. [Print]https://github.com/Markay12/LearnPython#print)
+6. [Variables](https://github.com/Markay12/LearnPython#variables)
+7. [Underscore Prefixes](https://github.com/Markay12/LearnPython#underscore-prefixes)
+8. [Easy Commands](https://github.com/Markay12/LearnPython#easy-commands)
+9. [Operators](https://github.com/Markay12/LearnPython#operators)
+10. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython#truthiness-and-falsiness)
+11. [Conditionals and Loops](https://github.com/Markay12/LearnPython#conditionals-and-loops)
+12. [Missing Operators](https://github.com/Markay12/LearnPython#missing-operators)
+13. [Functions](https://github.com/Markay12/LearnPython#functions)
+14. [Parameters](https://github.com/Markay12/LearnPython#parameters-and-python)
+15. [Assert and Exception Handling](https://github.com/Markay12/LearnPython#assert)
+16. [Array Like Structures](https://github.com/Markay12/LearnPython#array-like-structures)
+17. [Lists](https://github.com/Markay12/LearnPython/#lists)
+18. [Tuples and Strings](https://github.com/Markay12/LearnPython/#tuples-and-strings)
 
 
 ## Python
@@ -692,3 +692,4 @@ Strings are what you expect them to be
 	* removes a set of characters from the string
 
 
+## _Credit & License_
