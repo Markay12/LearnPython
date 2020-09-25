@@ -13,7 +13,7 @@ def main():
     elif grade >= 70:
         print("C")
     elif grade >= 60:
-        print("D");
+        print("D")
     else:
         print("E")
 
