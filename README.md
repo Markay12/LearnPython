@@ -1,6 +1,3 @@
- Learning Python CSE220 Notes
-
-
 # Table of Contents
 1. [Python](https://github.com/Markay12/LearnPython#python)
 2. [History](https://github.com/Markay12/LearnPython#history)
