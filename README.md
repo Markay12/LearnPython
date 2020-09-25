@@ -4,20 +4,22 @@
 # Table of Contents
 1. [Python](https://github.com/Markay12/LearnPython/blob/master/README.md#python)
 2. [History](https://github.com/Markay12/LearnPython/blob/master/README.md#history)
-3. [Python Structure](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#python-structure)
-4. [Main?](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#building-main)
-5. [Print](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#print)
-6. [Easy Commands](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#easy-commands)
-7. [Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#operators)
-8. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#truthiness-and-falsiness)
-9. [Conditionals and Loops](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#conditionals-and-loops)
-10. [Missing Operators](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#missing-operators)
-11. [Functions](https://github.com/Markay12/LearnPython/blob/master/lecture_notes.md#functions)
-12. [Parameters]()
-13. [Assert and Exception Handling]()
-14. [Array Like Structures]()
-15. [Lists]()
-16. [Tuples and Strings]()
+3. [Python Structure](https://github.com/Markay12/LearnPython/blob/master/README.md#python-structure)
+4. [Building Main](https://github.com/Markay12/LearnPython/blob/master/README.md#building-main)
+5. [Print]https://github.com/Markay12/LearnPython/blob/master/README.md#print)
+6. [Variables](https://github.com/Markay12/LearnPython/blob/master/README.md#variables)
+7. [Underscore Prefixes](https://github.com/Markay12/LearnPython/blob/master/README.md#underscore-prefixes)
+8. [Easy Commands](https://github.com/Markay12/LearnPython/blob/master/README.md#easy-commands)
+9. [Operators](https://github.com/Markay12/LearnPython/blob/master/README.md#operators)
+10. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython/blob/master/README.md#truthiness-and-falsiness)
+11. [Conditionals and Loops](https://github.com/Markay12/LearnPython/blob/master/README.md#conditionals-and-loops)
+12. [Missing Operators](https://github.com/Markay12/LearnPython/blob/master/README.md#missing-operators)
+13. [Functions](https://github.com/Markay12/LearnPython/blob/master/README.md#functions)
+14. [Parameters](https://github.com/Markay12/LearnPython/blob/master/README.md#parameters-and-python)
+15. [Assert and Exception Handling](https://github.com/Markay12/LearnPython/blob/master/README.md#assert)
+16. [Array Like Structures](https://github.com/Markay12/LearnPython/blob/master/README.md#array-like-structures)
+17. [Lists](https://github.com/Markay12/LearnPython/blob/master/README.md#lists)
+18. [Tuples and Strings](https://github.com/Markay12/LearnPython/blob/master/README.md#tuples-and-strings)
 
 
 ## Python
@@ -571,7 +573,7 @@ Python comes with a handful of data structures built into the language
 
 **Containers**
 
-### Lists
+## Lists
 Refers to a list collection type.
 Often called an array because it is similar, however... the list is NOT an array as we might be used to
 * It is actually, depending on the interpreter you are using, structurally different
