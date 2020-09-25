@@ -18,8 +18,10 @@
 14. [Parameters](https://github.com/Markay12/LearnPython#parameters-and-python)
 15. [Assert and Exception Handling](https://github.com/Markay12/LearnPython#assert)
 16. [Array Like Structures](https://github.com/Markay12/LearnPython#array-like-structures)
-17. [Lists](https://github.com/Markay12/LearnPython/#lists)
-18. [Tuples and Strings](https://github.com/Markay12/LearnPython/#tuples-and-strings)
+17. [Lists](https://github.com/Markay12/LearnPython#lists)
+18. [Tuples and Strings](https://github.com/Markay12/LearnPython#tuples-and-strings)
+19. [Python and OOP](https://github.com/Markay12/LearnPython#python-and-oop)
+20. [Creating a Class](https://github.com/Markay12/LearnPython#creating-a-class)
 
 
 ## Python
@@ -690,6 +692,42 @@ Strings are what you expect them to be
 	* changes cases of string
 * strip(char)
 	* removes a set of characters from the string
+
+## Python and OOP
+* Python is an object oriented language, but ut has a lot of differences from what you might be used to in Java
+* Python's OOP is less robust overall and has a very different feel (more similar to C++)
+
+### Differences
+There's a dearth of keywords in Python
+* No keywork for creating variables
+* No keywords for visibility modifiers, methods over functions, static etc.
+
+Inheritance and Polymorphism is supported
+* Override methods easily
+
+Encapsulation is partially supported.
+This means that coding python OOP requires a different pattern.
+
+## Creating a Class
+A class in Python follows our same Python Code Block Pattern that we see in Ifs/Loops/Conditionals.
+We use the keyword class followed by class name
+* `class Box:`
+
+### Class Constructor
+In python, we don't make contructors from the Class Name.
+To make a constructor we define the `__init__` function
+```Python
+{
+	class Box:
+		def __init__(self):
+			pass
+}
+```
+* The Box class can now be constructed
+	* Does nothing at the moment
+
+
+
 
 
 ## _Credit & License_
