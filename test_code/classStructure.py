@@ -7,6 +7,8 @@ class Box:
 box1 = Box()
 box2 = Box()
 
+box2.id = 5555
+
 print(box1.id)
 print(box2.id)
 
