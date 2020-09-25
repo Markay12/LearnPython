@@ -22,7 +22,8 @@
 18. [Tuples and Strings](https://github.com/Markay12/LearnPython#tuples-and-strings)
 19. [Python and OOP](https://github.com/Markay12/LearnPython#python-and-oop)
 20. [Creating a Class](https://github.com/Markay12/LearnPython#creating-a-class)
-
+21. [Self](https://github.com/Markay12/LearnPython#self)
+22. [Credit](https://github.com/Markay12/LearnPython#credit)
 
 ## Python
 Taking over the world, rapidly became the number one most popular language analytically
@@ -726,10 +727,41 @@ To make a constructor we define the `__init__` function
 * The Box class can now be constructed
 	* Does nothing at the moment
 
+### Basic Anatomy
+* Class Attributes
+	* Essentially the same as static properties
+	* Shared at the class level
+	* Shared by all objects of the class
+
+* Instance Attributes
+	* What we usually class Properties of a class
+	* These are defined during the __init__ method call
+
+_What do you do with methods?_
+* Each object is unique
+* Each object has its own properties and each call to a method from a unique object is different
+* methods are compiled separately in the same way that a function would be
+
+How do we keep each call unique?
+* `this` informs what properties are available and other methods
+* `this` is usually hidden
+	* often it is considered a readability or clarity feature more than anything else
+* In python this is **NOT** automatic
+* the keyoword for `this` in python is actually `self`
+
+* it is the first parameter in EVERY method
+	* including the constructor
 
 
+## Self
+Meaningful tab structure AND required use of self
+* Since var creation occurs via the assignment statement, we need to use self to specify and bind the variable to an object
+* Implication
+	* Don't build properties like we do in Java
+	* All instance properties like we do in Java
 
 
+---
 ## _Credit & License_
 Notes taken from Justin Selgrad Arizona State University
 Repository written by Mark Ashinhust
