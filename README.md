@@ -214,7 +214,7 @@ There are a few differences but mostly the same
 6. ** ; Exponent
 
 
-### _Bitwise Operators__
+### __Bitwise Operators__
 Python allows us to manipulate binary as well and gives standard bitwise operators
 
 Operator     | Description
