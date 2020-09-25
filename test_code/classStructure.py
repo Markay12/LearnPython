@@ -7,6 +7,8 @@ class Box:
 box1 = Box()
 box2 = Box()
 
+
+#overshadow the assignment property
 box2.id = 5555
 
 print(box1.id)
