@@ -20,7 +20,9 @@
 19. [Python and OOP](https://github.com/Markay12/LearnPython#python-and-oop)
 20. [Creating a Class](https://github.com/Markay12/LearnPython#creating-a-class)
 21. [Self](https://github.com/Markay12/LearnPython#self)
-22. [Credit](https://github.com/Markay12/LearnPython#credit)
+22. [Inheritence and Polymorphism]()
+23. [Super]()
+999. [Credit](https://github.com/Markay12/LearnPython#credit)
 
 ## Python
 Taking over the world, rapidly became the number one most popular language analytically
@@ -758,8 +760,161 @@ Meaningful tab structure AND required use of self
 	* All instance properties like we do in Java
 
 
----
-## _Credit & License_
-Notes taken from Justin Selgrad Arizona State University
-Repository written by Mark Ashinhust
+## Confusion and Problems
+Each method requires the self parameter first
+Creation of properties happen in the __init__ method
 
+### Instantiation
+* Instantiating an object is simple
+* Class the class name as a function and pass in the appropriate parameters
+
+## Destructor
+* Python collects garbage
+* Gives us more control over the memory management
+
+Unlike Java we have a command to explicit delete an object
+* this marks it for garbage collection
+This means we can then supply a Destructor for our class
+* Clean up other memory the object might be using
+* Gives instructor on how to destroy an object
+* Called when the object is deleted
+
+Creating a destructor 
+```Python
+{
+
+	def __del__(self):
+		#delete things
+
+}
+```
+This gives python greater memory effeciency
+
+### Other things we can Overload
+Method | Description
+-------|---------------------------------
+__str__(self): | This defines a 'toString' for the class, making printing objects easier
+__add__(self, other): | This overloads the '+' operator for the class
+__len__(self): | Overloads a len() function for length
+__abs__(self): | Defines how the class responds to absolute value
+__getitem__(self, index): | lets your class respond to []
+
+There are dozens of methods you can overload to customize your class
+* every math operator and their shortcuts
+* Byte to string conversions
+* Relational Operators
+
+
+# Inheritence and Polymorphism
+
+## Inheritence
+* Python allows for multiple inheritence
+Fundamentally different than Java
+* Java enforces single inheritence and uses Interfaces to simulate some of the features of Multiple inheritence
+
+* The child class will have access to all the members of all of its parents... which also exists in C++
+
+### Basic Inheritence
+Class are just 'passed in' with inheritence from the parameters list
+* `class Child(parent)`
+
+To accomplish multiple inheritence
+`class Child(Parent1, Parent2, Parent3)`
+
+### Constructors and Inheritence
+Parent constructors must be called
+* Objects in OOP are essentially conglomerations of parent objetcs and the new stuff that child objects bring
+* Build the portions of the child that IS A parent class
+
+## super()
+This allows us acces to the first param of the child class (first parent)
+Purpose:
+* Used Super in Java
+* Allows us to invoke parent behaviors
+
+Constructor is not invokes automatically, and must be invoked explicitly
+
+```Python
+{
+
+	class A:
+		def __init__(self):
+			print("A")
+
+	class Child(A):
+		def __init__(self):
+			print("child")
+
+	ch = Child()
+
+}
+```
+In the above function the outcome will only print 'child'.
+The A constructor would not be called.
+
+However, we can overcome this with:
+```Python
+{
+
+	class A:
+		def __init__(self):
+			print("A")
+
+	class Child(A):
+		def __init__(self):
+			super().__init__()
+			print("Child")
+
+ch = Child()
+
+}
+```
+Here we would get "A" and "child"
+
+
+### Multiple Inheritence Super
+The super() function only reference the first parent in the inheritence
+When we have multiple inheritence, we have to callout the aprents explicitly and invoke their __init__
+
+```Python
+{
+
+	class A:
+		def __init__(self):
+			print("A")
+
+	class B: 
+		def __init__(self):
+			print("B")
+
+	class C:
+		def __init__(self):
+			print("C")
+
+	class Child(A, B, C):
+		def __init__(self):
+			A.__init__(self)
+			B.__init__(self)
+			C.__init__(self)
+			print("child")
+
+	ch = Child()
+
+}
+```
+This will output A, B, C and Child
+
+Python will not build the parent portion of a child class if you do not invoke the __init__ of the parent
+* Either through super or through the class
+
+**Parent Constructon is Required**
+In multiple inheritence just calling super().__init__() will not build all of the parents
+* Will create an error message
+
+# Methods vs Properties
+
+## Polymorphism
+Essentially change/difference at the same level of inheritence
+* same things many forms is often the summary
+We can have a base class like animal and many different animals
+* Dogs --> Class --> Breed
