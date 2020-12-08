@@ -1,28 +1,28 @@
 # Table of Contents
-1. [Python](https://github.com/Markay12/LearnPython#python)
-2. [History](https://github.com/Markay12/LearnPython#history)
-3. [Python Structure](https://github.com/Markay12/LearnPython#python-structure)
-4. [Building Main](https://github.com/Markay12/LearnPython#building-main)
-5. [Print](https://github.com/Markay12/LearnPython#print)
-6. [Variables](https://github.com/Markay12/LearnPython#variables)
-7. [Underscore Prefixes](https://github.com/Markay12/LearnPython#underscore-prefixes)
-8. [Easy Commands](https://github.com/Markay12/LearnPython#easy-commands)
-9. [Operators](https://github.com/Markay12/LearnPython#operators)
-10. [Truthiness and Falsiness](https://github.com/Markay12/LearnPython#truthiness-and-falsiness)
-11. [Conditionals and Loops](https://github.com/Markay12/LearnPython#conditionals-and-loops)
-12. [Missing Operators](https://github.com/Markay12/LearnPython#missing-operators)
-13. [Functions](https://github.com/Markay12/LearnPython#functions)
-14. [Parameters](https://github.com/Markay12/LearnPython#parameters-and-python)
-15. [Assert and Exception Handling](https://github.com/Markay12/LearnPython#assert)
-16. [Array Like Structures](https://github.com/Markay12/LearnPython#array-like-structures)
-17. [Lists](https://github.com/Markay12/LearnPython#lists)
-18. [Tuples and Strings](https://github.com/Markay12/LearnPython#tuples-and-strings)
-19. [Python and OOP](https://github.com/Markay12/LearnPython#python-and-oop)
-20. [Creating a Class](https://github.com/Markay12/LearnPython#creating-a-class)
-21. [Self](https://github.com/Markay12/LearnPython#self)
-22. [Inheritence and Polymorphism]()
-23. [Super]()
-999. [Credit](https://github.com/Markay12/LearnPython#credit)
+1. Python
+2. History
+3. Python Structure
+4. Building Main
+5. Print
+6. Variables
+7. Underscore Prefixes
+8. Easy Commands
+9. Operators
+10. Truthiness and Falsiness
+11. Conditionals and Loops
+12. Missing Operators
+13. Functions
+14. Parameters
+15. Assert and Exception Handling
+16. Array Like Structures
+17. Lists
+18. Tuples and Strings
+19. Python and OOP
+20. Creating a Class
+21. Self
+22. Inheritence and Polymorphism
+23. Super
+24. Credit
 
 ## Python
 Taking over the world, rapidly became the number one most popular language analytically
